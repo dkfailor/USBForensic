@@ -23,4 +23,6 @@ Blanked (formatted as ext4) USB drive and created Images folder to store and tra
 from linuxconfig.org, “foremost utility tries to recover and reconstruct files on the base of their headers, footers and data structures, without relying on filesystem metadata. This forensic technique is known as file carving”
 I was able to get some data but not nearly as much as I expected no matter if I used specific file types or wide open.
 At this point I realized it would be much easier to install and use foremost to try and recover any of the docx, doc, pdf, txt, and html files I lost.  (Same considerations for forensics/chain of custody in a real file carve--my goal here was merely to retrieve some of the documents I lost).  However foremost only reovered some files even though I had immediately created the img file and did not use the drive before then.  Also the files all had numeric names so I had to open them to see what they were.
-2.
+
+ #Next Step
+ 1. I may try a live cd of Knoppix or some other well known and well documented Linux option to try and recover the data.
